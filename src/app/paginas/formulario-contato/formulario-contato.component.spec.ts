@@ -11,7 +11,7 @@ describe('FormularioContatoComponent', () => {
       imports: [FormularioContatoComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(FormularioContatoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -21,3 +21,5 @@ describe('FormularioContatoComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+export { FormularioContatoComponent };
